@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+/* =================================   header ========================================= */
+header{
+    padding: 25px 0;
+}
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+.logo {
+    display: inline-block;
+    width: 470px;
+}
+.links {
+    display: inline-block;
+    width: 460px;
+    text-align: right;
+}
+.links a {
+    margin-left: 20px;
+}
+
+/* =================================   section 1 ========================================= */
+.section1 {
+    padding: 102px 0 117px 0;
+    background: #FAC960;
+}
+h1{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    color: #8A6D2F;
+    margin-bottom: 40px;
+}
+form{
+    text-align: center;
+}
+#text{
+    width: 560px;
+    height: 54px;
+    /* за падінгом не зрозуміло чому верхній падінг регулює кнопку  button
+     padding: 0 0 0 36px--якщо поставити так то кнопка буде трішки вище і візуально це буде видно  */
+    padding: 5.5px 0 0 36px;
+}
+#button{
+    background: #A8863D;
+    width: 240px;
+    height: 54px;
+}
+.button{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+::placeholder{
+    font-size: 30px;
+    line-height: 54px;
+    color: #999999;
+}
+/* =================================   section 2 ========================================= */
+
+.unlimited-space{
+    background: #F2F2F2;
+    padding: 77px 0 81px 0;
+}
+h2{
+    text-align: center;
+    font-size: 37px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+    margin: 0 0 32px 0;
+}
+p{
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    
+    margin: 0 0 56px 0;
+}
+.img{
+    text-align: center;
+}
+/* =================================   section 3 ========================================= */
+.mobile-access{
+    background: #FFFFFF;
+    padding: 76px 0 19px 0;
+}
+.text{
+    margin: 0 0 32px 0;
+}
+/* =================================   section 4 ========================================= */
+.friends{
+    background: #FAC960;
+    padding: 54px 0 107px 0;
+}
+h3{
+    font-size: 37px;
+    line-height: 36px;
+    text-align: center;
+    color: #8A6D2F;
+    margin: 0 0 31px 0;
+}
+.friends-text{
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 0 0 33px 0;
+}
+#btn{
+    width: 61px;
+    height: 22px;
+}
+/* =================================   footer ========================================= */
+
+footer{
+    padding: 81px 0;
+    background: #F2F2F2;
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-links{
+    padding-top: 24px;
+    text-align: center;
+}
+.link-center{
+    margin: 0 22px 0 22px;
+}
