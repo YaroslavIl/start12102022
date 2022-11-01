@@ -1,0 +1,166 @@
+
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+ul li{list-style: none;}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F8FAF8;
+}
+.container{
+    width: 62.5%;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 0 36px 0;
+}
+.logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #BC436A;
+    padding: 8px 0;
+}
+.header-inner{
+    display: flex;
+}
+.menu-list{
+    display: flex;
+}
+.menu-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #776677;
+}
+.menu-list li{
+    margin-right: 40px;
+    padding: 8px 0;
+}
+.red{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #BC436A;
+}
+.button{
+    padding: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #386E41;
+    border-radius: 4px;
+}
+
+section{
+background-image: url('../img/Image.png'),url('../img/Shap.png');
+ background-repeat: no-repeat;
+ background-size: 45% 100%,5% 12%;
+ background-position: 100%,0% 61%;
+ background-attachment: fixed;
+ padding-top: 200px;
+
+}
+.section-container{
+    padding-bottom: 80px;
+}
+.text-block{
+    width: 50%;
+}
+.title{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #333333;
+    margin-bottom: 23px;
+}
+.title span{
+    color: rgba(188, 67, 106, 1);
+}
+.subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #7A7A7A;
+}
+.text{
+    margin: 230px 0 33px 0;
+    position: relative;
+}
+.text::after{
+    content: url('../img/chevron-right.png');
+    position: absolute;
+    top: 2px;
+    left: 220px;
+}
+.place{
+    width: 100%;
+    background-color: #386E41;
+    border-radius: 8px;
+    padding: 30px 35px;
+}
+.input{
+    background-color: #386E41;
+    padding: 8px;
+    outline: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.before{
+    position: relative;
+    width: 22%;
+    margin-right: 75px;
+}
+.before::after{
+    content: url('../img/Vector.png');
+    position: absolute;
+    top: 5px;
+    left: 225px;
+}
+.inner{
+    display: flex;
+}
+.inner-buttom{
+    padding: 8px 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: #BC436A;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+    border-radius: 4px;
+}
+.text-see{
+    text-align: center;
+    margin-top: 72px;
+}
+.text-see::after{
+    content: url('../img/chevrons-down.png');
+    display: block;
+    margin-top: 20px;
+}
+
+
