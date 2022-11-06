@@ -20,7 +20,8 @@ a{
 body{
     font-family: 'Open Sans', sans-serif;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.07326680672268904) 28%, rgba(0,0,0,1) 28%), url('../img/Background.png') 50% 0% no-repeat;
+    /* background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.07326680672268904) 28%, rgba(0,0,0,1) 28%), url('../img/Background.png') 50% 0% no-repeat; */
+        background: url('../img/Background.png') 50% 0% no-repeat,linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.07326680672268904) 28%, rgba(0,0,0,1) 28%);
     padding-bottom: 120px;
 }
 
@@ -470,6 +471,7 @@ label{
     background-color: #000;
     width: 318px;
     outline: none;
+    color: #FFFFFF;
 }
 .form{
     border-bottom: 1.4px solid rgba(255, 255, 255, 0.3);
@@ -755,5 +757,28 @@ label{
     .year{
         margin-top: 100px;
         font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 500px){
+    .started-inner{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .started-row{
+        flex-direction: column;
+    }
+    .started-text{
+        margin: 0;
+    }
+    .started-btn{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .button{
+        width: 100%;
     }
 }
