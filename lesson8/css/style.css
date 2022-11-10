@@ -20,21 +20,24 @@ a {
   text-decoration: none;
 }
 
+html {
+  font-size: 20px;
+}
+@media (max-width: 755px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 15px;
+  }
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
   font-weight: 400;
-  font-size: 16px;
-}
-@media (max-width: 1100px) {
-  body {
-    font-size: 11px;
-  }
-}
-@media (max-width: 755px) {
-  body {
-    font-size: 9px;
-  }
 }
 
 .btn {
@@ -57,7 +60,7 @@ body {
 }
 
 .subtitle {
-  font-size: 21px;
+  font-size: 1.05rem;
   line-height: 26px;
   text-transform: capitalize;
 }
@@ -277,7 +280,7 @@ label {
 }
 @media (max-width: 1650px) {
   .header-text-block {
-    margin-top: 45%;
+    margin-top: 35%;
   }
 }
 @media (max-width: 755px) {
@@ -309,13 +312,11 @@ label {
 @media (max-width: 755px) {
   .header-subtitle {
     width: 50%;
-    font-size: 18px;
   }
 }
 @media (max-width: 500px) {
   .header-subtitle {
     width: 100%;
-    font-size: 16px;
   }
 }
 .header-button {
@@ -349,7 +350,7 @@ label {
   width: 100%;
 }
 .piar-text {
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 24px;
   text-align: center;
   color: #151616;
@@ -362,11 +363,6 @@ label {
   display: block;
   background-color: #767676;
   margin: 0 auto 13px;
-}
-@media (max-width: 755px) {
-  .piar-text {
-    font-size: 17px;
-  }
 }
 .piar-row {
   margin-top: 42px;
